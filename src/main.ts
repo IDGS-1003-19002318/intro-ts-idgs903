@@ -2,9 +2,13 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './temasts/01-tiposDatos.ts';
-import './temasts/02-interfaz-arre.ts';
-import './temasts/03-funciones.ts';
+// import './temasts/01-tiposDatos.ts';
+// import './temasts/02-interfaz-arre.ts';
+// import './temasts/03-funciones.ts';
+// import './temasts/04-destructurarcion.ts';
+// import './temasts/05-clases.ts';
+// import './temasts/06-Herencia.ts';
+// import './temasts/07-genericos.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -27,4 +31,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 
 
-console.log('hello world')
+// console.log('hello world')
